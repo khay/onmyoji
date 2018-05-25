@@ -4,11 +4,12 @@ I've been playing Onmyoji game since it is released on Global on 2018 Janurary. 
 
 ### To Do
 
-[ ] Shikigami
-[ ] Soul
+- [ ] Shikigami
+- [ ] Soul
 
 
 Meanwhile, you can download the game from the link below and enjoy.
+
 [Onmyoji Game by NetEase][1]
 
 [1]: http://slashdot.org
