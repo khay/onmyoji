@@ -1,0 +1,157 @@
+{
+	"no" : "265",
+	"name" : {
+		"global": "Ibaraki Doji",
+		"chinese" : "茨木童子",
+		"japanese" : " 茨木童子"
+	},
+	"rarity" : "SSR",
+	"role" : "Damage Dealer",
+	"cv" : "Jun Fukuyama",
+	"attributes" : {
+		"atk" : {
+			"min" : "140",
+			"max" : "3076"
+		},
+		"hp" : {
+			"min" : "854",
+			"max" : "10254"
+		},
+		"def" : {
+			"min" : "60",
+			"max" : "397"
+		},
+		"spd" : {
+			"min" : "102",
+			"max" : "112"
+		},
+		"crit" : {
+			"min" : "10%",
+			"max" : "10%"
+		},
+		"critDMG" : {
+			"min" : "150%",
+			"max" : "150%"
+		},
+		"effectHit" : {
+			"min" : "0%",
+			"max" : "0%"
+		},
+		"effectRes" : {
+			"min" : "0%",
+			"max" : "0%"
+		}
+	},
+	"evolution" : [
+		{
+			"name" : "azure2",
+			"amount" : "8"
+		},
+		{
+			"name" : "azure3",
+			"amount" : "16"
+		},
+		{
+			"name" : "lightning2",
+			"amount" : "8"
+		},
+		{
+			"name" : "lightning3",
+			"amount" : "16"
+		}
+	],
+	"skins" : [
+		{
+			"name" : "Default",
+			"icon" : "/265/265s1.png",
+			"defaultAvatar" : "/265/265skin1.png"
+		},
+		{
+			"name" : "Awakened",
+			"icon" : "/265/265s2.png",
+			"defaultAvatar" : "/265/265skin2.png"
+		},
+		{
+			"name" : "Demon Hand",
+			"icon" : "/265/265s3.png",
+			"defaultAvatar" : "/265/265skin3.png"
+		},
+		{
+			"name" : "Maple Memories",
+			"icon" : "/265/265s4.png",
+			"defaultAvatar" : "/265/265skin4.png"
+		}	
+		{
+			"name" : "Winter Babmoo",
+			"icon" : "/265/265s4.png",
+			"defaultAvatar" : "/265/265skin4.png"
+		}		
+	],
+	"skills" : [
+		{
+			"name": "Black Flame",			
+			"type" : "Normal",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "/265/2651.png",
+			"description" : "ST 100% ATK damage w/ 30% chance (+ Effect HIT) of increasing the damage the enemy takes by 20% for 2 turns.",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "Skill damage increases by 5%"
+				},
+				{
+					"level" : 3,
+					"effect" : "Skill damage increases by 5%"
+				},
+				{
+					"level" : 4,
+					"effect" : "Skill damage increases by 5%"
+				},
+				{
+					"level" : 5,
+					"effect" : "Skill damage increases by 10%"
+				}
+			]
+		},
+		{
+			"name": "Rage Outlet",			
+			"type" : "Passive",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "/265/2652.png",
+			"description" : "When Ibaraki defeats an enemy, all other enemy units take damage equal to 50% of the excess damage overflow (does not activate on in-battle summoned units).  Spill over damage becomes 100% upon Evolving.",
+			"upgrade" : [
+				{
+					"Not Upgradable"
+				}
+			]
+		},
+		{
+			"name": "Infernal Hand",			
+			"type" : "Special",
+			"onibi" : 3,
+			"cooldown" : 0,
+			"icon" : "/265/2653.png",
+			"description" : "Ibaraki Doji summons his severed hand from hell to attack an enemy, dealing damage equal to 263% of his ATK.",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "Skill damage increases by 5%"
+				},
+				{
+					"level" : 3,
+					"effect" : "Skill damage increases by 5%"
+				},
+				{
+					"level" : 4,
+					"effect" : "Skill damage increases by 5%"
+				},
+				{
+					"level" : 5,
+					"effect" : "Skill damage increases by 5%"
+				}
+			]
+		}
+	]
+}
