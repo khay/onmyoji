@@ -70,12 +70,12 @@
 			"name" : "Awakened",
 			"icon" : "../resources/279/279s2.png",
 			"defaultAvatar" : "../resources/279/279skin2.png"
-		}
+		},
 		{
 			"name" : "",
 			"icon" : "../resources/279/279s3.png",
 			"defaultAvatar" : "../resources/279/279skin3.png"
-		}
+		},
 		{
 			"name" : "",
 			"icon" : "../resources/279/279s4.png",
