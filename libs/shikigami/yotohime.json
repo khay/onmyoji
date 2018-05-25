@@ -1,0 +1,143 @@
+{
+	"no" : "269",
+	"name" : {
+		"global": "Yoto Hime",
+		"chinese" : "妖刀姬",
+		"japanese" : "妖刀姫"
+	},
+	"rarity" : "SSR",
+	"role" : "ST DPS",
+	"cv" : "Izawa Shiori",
+	"attributes" : {
+		"atk" : {
+			"min" : "141",
+			"max" : "3270"
+		},
+		"hp" : {
+			"min" : "854",
+			"max" : "10026"
+		},
+		"def" : {
+			"min" : "61",
+			"max" : "397"
+		},
+		"spd" : {
+			"min" : "101",
+			"max" : "111"
+		},
+		"crit" : {
+			"min" : "12%",
+			"max" : "12%"
+		},
+		"critDMG" : {
+			"min" : "150%",
+			"max" : "150%"
+		},
+		"effectHit" : {
+			"min" : "0%",
+			"max" : "0%"
+		},
+		"effectRes" : {
+			"min" : "0%",
+			"max" : "0%"
+		}
+	},
+	"evolution" : [
+		{
+			"name" : "wind2",
+			"amount" : "8"
+		},
+		{
+			"name" : "wind3",
+			"amount" : "16"
+		},
+		{
+			"name" : "lightning2",
+			"amount" : "8"
+		},
+		{
+			"name" : "lightning3",
+			"amount" : "16"
+		}
+	],
+	"skins" : [
+		{
+			"name" : "Default",
+			"icon" : "../resources/269/269s1.png",
+			"defaultAvatar" : "../resources/269/269skin1.png"
+		},
+		{
+			"name" : "Awakened",
+			"icon" : "../resources/269/269s2.png",
+			"defaultAvatar" : "../resources/269/269skin2.png"
+		},
+		{
+			"name" : "Secret Zone",
+			"icon" : "../resources/269/269s3.png",
+			"defaultAvatar" : "../resources/269/269skin3.png"
+		},	
+	],
+	"skills" : [
+		{
+			"name": "Cursed Blade",			
+			"type" : "Normal",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "../resources/269/2691.png",
+			"description" : "ST 100% ATK damage",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 4,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 5,
+					"effect" : "+5% damage"
+				}
+			]
+		},
+		{
+			"name": "Extra Slice",			
+			"type" : "Passive",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "../resources/269/2692.png",
+			"description" : "20% chance to inflict additional damage equals to 40% of her ATK when she deals damage",
+			"upgrade" : null
+		},
+		{
+			"name": "Savage Combo",			
+			"type" : "Special",
+			"onibi" : 3,
+			"cooldown" : 0,
+			"icon" : "../resources/269/2693.png",
+			"description" : "ST 50% ATK damage x 6.  If the target is defeated, use the remaining attacks on the next enemy with lowest HP.",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 4,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 5,
+					"effect" : "+5% damage; Attack limit increases by 2 if target changes"
+				}
+			]
+		}
+	]
+}
