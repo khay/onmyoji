@@ -1,0 +1,61 @@
+{
+	"no" : "279",
+	"name" : {
+		"global": "Hana",
+		"chinese" : "花鸟卷",
+		"japanese" : "花鳥風月"
+	},
+	"cv" : "Hayami Saori",
+	"evolution" : [
+		{
+			"name" : "fire2",
+			"amount" : "8"
+		},
+		{
+			"name" : "fire3",
+			"amount" : "16"
+		},
+		{
+			"name" : "lightning2",
+			"amount" : "8"
+		},
+		{
+			"name" : "lightning3",
+			"amount" : "16"
+		}
+	],
+	"skins" : [
+		{
+			"name" : "Default",
+			"icon" : "../resources/279s1.png",
+			"defaultAvatar" : "../resources/279skin1.png"
+		}		
+	],
+	"skills" : [
+		{
+			"name": "Loyal Flock",
+			"type" : "Normal",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"description" : "ST – Each of her birds will inflict 40% attack damage.  When the birds return, there is a 50% chance to recover the lowest HP unit of own team by 10% of Hana’s max HP.  At the beginning of her turn or when there are no birds, Hana regenerates 1 new bird.  At max, she can have two birds.  Birds disappear when Hana counters (only one bird used in counter) or uses Painting Realm.",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "Chance to heal on return raised to 60%"
+				},
+				{
+					"level" : 3,
+					"effect" : "Chance to heal on return raised to 70%"
+				},
+				{
+					"level" : 4,
+					"effect" : "Chance to heal on return raised to 80%"
+				},
+				{
+					"level" : 5,
+					"effect" : "Maximum number of birds raised to 3"
+				}
+			]
+		}
+	]
+}
