@@ -5,7 +5,43 @@
 		"chinese" : "花鸟卷",
 		"japanese" : "花鳥風月"
 	},
+	"rarity" : "SSR",
+	"role" : "Healer",
 	"cv" : "Hayami Saori",
+	"attributes" : {
+		"atk" : {
+			"min" : "100",
+			"max" : "2305"
+		},
+		"hp" : {
+			"min" : "1216",
+			"max" : "14127"
+		},
+		"def" : {
+			"min" : "61",
+			"max" : "397"
+		},
+		"spd" : {
+			"min" : "102",
+			"max" : "112"
+		},
+		"crit" : {
+			"min" : "5%",
+			"max" : "5%"
+		},
+		"critDMG" : {
+			"min" : "150%",
+			"max" : "150%"
+		},
+		"effectHit" : {
+			"min" : "0%",
+			"max" : "0%"
+		},
+		"effectRes" : {
+			"min" : "0%",
+			"max" : "0%"
+		}
+	},
 	"evolution" : [
 		{
 			"name" : "fire2",
@@ -27,16 +63,32 @@
 	"skins" : [
 		{
 			"name" : "Default",
-			"icon" : "../resources/279s1.png",
-			"defaultAvatar" : "../resources/279skin1.png"
+			"icon" : "../resources/279/279s1.png",
+			"defaultAvatar" : "../resources/279/279skin1.png"
+		},
+		{
+			"name" : "Awakened",
+			"icon" : "../resources/279/279s2.png",
+			"defaultAvatar" : "../resources/279/279skin2.png"
+		}
+		{
+			"name" : "",
+			"icon" : "../resources/279/279s3.png",
+			"defaultAvatar" : "../resources/279/279skin3.png"
+		}
+		{
+			"name" : "",
+			"icon" : "../resources/279/279s4.png",
+			"defaultAvatar" : "../resources/279/279skin4.png"
 		}		
 	],
 	"skills" : [
 		{
-			"name": "Loyal Flock",
+			"name": "Loyal Flock",			
 			"type" : "Normal",
 			"onibi" : 0,
 			"cooldown" : 0,
+			"icon" : "../resources/279/2791.png",
 			"description" : "ST – Each of her birds will inflict 40% attack damage.  When the birds return, there is a 50% chance to recover the lowest HP unit of own team by 10% of Hana’s max HP.  At the beginning of her turn or when there are no birds, Hana regenerates 1 new bird.  At max, she can have two birds.  Birds disappear when Hana counters (only one bird used in counter) or uses Painting Realm.",
 			"upgrade" : [
 				{
@@ -54,6 +106,58 @@
 				{
 					"level" : 5,
 					"effect" : "Maximum number of birds raised to 3"
+				}
+			]
+		},
+		{
+			"name": "Painting Realm",			
+			"type" : "Passive",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "../resources/279/2792.png",
+			"description" : "20% chance to increase 20% move bar for herself at the end of her turn.  In addition, Hana sacrifices 1 bird to dispel adverse status effects of one ally (including Freeze, Daze, Sleep, Morph, Silence, Taunt, Confuse, and Bind).",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "Proc chance +5%"
+				},
+				{
+					"level" : 3,
+					"effect" : "move bar increase +5%"
+				},
+				{
+					"level" : 4,
+					"effect" : "Proc chance +5%"
+				},
+				{
+					"level" : 5,
+					"effect" : "move bar increase +5%"
+				}
+			]
+		},
+		{
+			"name": "Fragrant Flowers",			
+			"type" : "Special",
+			"onibi" : 3,
+			"cooldown" : 0,
+			"icon" : "../resources/279/2793.png",
+			"description" : "AOE recover 8% of Hana’s max HP + regen for next two turns at 7% and 6%",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "HP recovery +2%"
+				},
+				{
+					"level" : 3,
+					"effect" : "Regen +2% each turn"
+				},
+				{
+					"level" : 4,
+					"effect" : "HP recovery +2%"
+				},
+				{
+					"level" : 5,
+					"effect" : "Regen +2% each turn"
 				}
 			]
 		}
