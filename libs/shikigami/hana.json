@@ -63,23 +63,23 @@
 	"skins" : [
 		{
 			"name" : "Default",
-			"icon" : "../resources/279/279s1.png",
-			"defaultAvatar" : "../resources/279/279skin1.png"
+			"icon" : "/279/279s1.png",
+			"defaultAvatar" : "/279/279skin1.png"
 		},
 		{
 			"name" : "Awakened",
-			"icon" : "../resources/279/279s2.png",
-			"defaultAvatar" : "../resources/279/279skin2.png"
+			"icon" : "/279/279s2.png",
+			"defaultAvatar" : "/279/279skin2.png"
 		},
 		{
 			"name" : "",
-			"icon" : "../resources/279/279s3.png",
-			"defaultAvatar" : "../resources/279/279skin3.png"
+			"icon" : "/279/279s3.png",
+			"defaultAvatar" : "/279/279skin3.png"
 		},
 		{
 			"name" : "",
-			"icon" : "../resources/279/279s4.png",
-			"defaultAvatar" : "../resources/279/279skin4.png"
+			"icon" : "/279/279s4.png",
+			"defaultAvatar" : "/279/279skin4.png"
 		}		
 	],
 	"skills" : [
@@ -88,7 +88,7 @@
 			"type" : "Normal",
 			"onibi" : 0,
 			"cooldown" : 0,
-			"icon" : "../resources/279/2791.png",
+			"icon" : "/279/2791.png",
 			"description" : "ST – Each of her birds will inflict 40% attack damage.  When the birds return, there is a 50% chance to recover the lowest HP unit of own team by 10% of Hana’s max HP.  At the beginning of her turn or when there are no birds, Hana regenerates 1 new bird.  At max, she can have two birds.  Birds disappear when Hana counters (only one bird used in counter) or uses Painting Realm.",
 			"upgrade" : [
 				{
@@ -114,7 +114,7 @@
 			"type" : "Passive",
 			"onibi" : 0,
 			"cooldown" : 0,
-			"icon" : "../resources/279/2792.png",
+			"icon" : "/279/2792.png",
 			"description" : "20% chance to increase 20% move bar for herself at the end of her turn.  In addition, Hana sacrifices 1 bird to dispel adverse status effects of one ally (including Freeze, Daze, Sleep, Morph, Silence, Taunt, Confuse, and Bind).",
 			"upgrade" : [
 				{
@@ -140,7 +140,7 @@
 			"type" : "Special",
 			"onibi" : 3,
 			"cooldown" : 0,
-			"icon" : "../resources/279/2793.png",
+			"icon" : "/279/2793.png",
 			"description" : "AOE recover 8% of Hana’s max HP + regen for next two turns at 7% and 6%",
 			"upgrade" : [
 				{
