@@ -121,11 +121,7 @@
 			"cooldown" : 0,
 			"icon" : "../resources/279/2792.png",
 			"description" : "When Ibaraki defeats an enemy, all other enemy units take damage equal to 50% of the excess damage overflow (does not activate on in-battle summoned units).  Spill over damage becomes 100% upon Evolving.",
-			"upgrade" : [
-				{
-					"Not Upgradable"
-				}
-			]
+			"upgrade" : null
 		},
 		{
 			"name": "Infernal Hand",			
