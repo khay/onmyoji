@@ -1,0 +1,165 @@
+{
+	"no" : "266",
+	"name" : {
+		"global": "Aoandon",
+		"chinese" : "青行灯",
+		"japanese" : "青行燈"
+	},
+	"rarity" : "SSR",
+	"role" : "Support",
+	"cv" : "Nana Mizuki",
+	"attributes" : {
+		"atk" : {
+			"min" : "103",
+			"max" : "2439"
+		},
+		"hp" : {
+			"min" : "982",
+			"max" : "11621"
+		},
+		"def" : {
+			"min" : "73",
+			"max" : "472"
+		},
+		"spd" : {
+			"min" : "109",
+			"max" : "119"
+		},
+		"crit" : {
+			"min" : "8%",
+			"max" : "8%"
+		},
+		"critDMG" : {
+			"min" : "150%",
+			"max" : "150%"
+		},
+		"effectHit" : {
+			"min" : "0%",
+			"max" : "0%"
+		},
+		"effectRes" : {
+			"min" : "0%",
+			"max" : "0%"
+		}
+	},
+	"evolution" : [
+		{
+			"name" : "fire2",
+			"amount" : "8"
+		},
+		{
+			"name" : "fire3",
+			"amount" : "16"
+		},
+		{
+			"name" : "lightning2",
+			"amount" : "8"
+		},
+		{
+			"name" : "lightning3",
+			"amount" : "16"
+		}
+	],
+	"skins" : [
+		{
+			"name" : "Default",
+			"icon" : "/266/266s1.png",
+			"defaultAvatar" : "/266/266skin1.png"
+		},
+		{
+			"name" : "Awakened",
+			"icon" : "/266/266s2.png",
+			"defaultAvatar" : "/266/266skin2.png"
+		},
+		{
+			"name" : "",
+			"icon" : "/266/266s3.png",
+			"defaultAvatar" : "/266/266skin3.png"
+		},
+		{
+			"name" : "",
+			"icon" : "/266/266s4.png",
+			"defaultAvatar" : "/266/266skin4.png"
+		}		
+	],
+	"skills" : [
+		{
+			"name": "Ghostly Light",			
+			"type" : "Normal",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "/266/2661.png",
+			"description" : "ST 100% attack dmg; 30% chance of stealing target’s spirit fires when Evolved",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% dmg"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% dmg"
+				},
+				{
+					"level" : 4,
+					"effect" : "+5% dmg"
+				},
+				{
+					"level" : 5,
+					"effect" : "+5% dmg"
+				}
+			]
+		},
+		{
+			"name": "Lantern Support",			
+			"type" : "Passive",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "/266/2662.png",
+			"description" : "At the beginning of an ally’s turn, Aoandon has a 10% chance to use this skill on the ally.  Under this effect, the ally consumes no orbs when using skills this turn.",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+2% proc chance"
+				},
+				{
+					"level" : 3,
+					"effect" : "+2% proc chance"
+				},
+				{
+					"level" : 4,
+					"effect" : "+2% proc chance"
+				},
+				{
+					"level" : 5,
+					"effect" : "Chance to trigger increased to 40% but reduced by 3% for each orb you have (min. 16% max 40%)"
+				}
+			]
+		},
+		{
+			"name": "Lantern Drain",			
+			"type" : "Special",
+			"onibi" : 3,
+			"cooldown" : 0,
+			"icon" : "/266/2663.png",
+			"description" : "AOE 158% dmg, 30% chance of steal 1 spirit fire from enemy",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% dmg"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% dmg"
+				},
+				{
+					"level" : 4,
+					"effect" : "+5% dmg"
+				},
+				{
+					"level" : 5,
+					"effect" : "+5% dmg"
+				}
+			]
+		}
+	]
+}
