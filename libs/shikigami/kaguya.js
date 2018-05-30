@@ -1,0 +1,157 @@
+{
+	"no" : "280",
+	"name" : {
+		"global": "Kaguya",
+		"chinese" : "辉夜姬",
+		"japanese" : "かぐや姫"
+	},
+	"rarity" : "SSR",
+	"role" : "Support",
+	"cv" : "Ayana Taketatsu",
+	"attributes" : {
+		"atk" : {
+			"min" : "102",
+			"max" : "2332"
+		},
+		"hp" : {
+			"min" : "1184",
+			"max" : "13785"
+		},
+		"def" : {
+			"min" : "63",
+			"max" : "406"
+		},
+		"spd" : {
+			"min" : "98",
+			"max" : "108"
+		},
+		"crit" : {
+			"min" : "5%",
+			"max" : "5%"
+		},
+		"critDMG" : {
+			"min" : "150%",
+			"max" : "150%"
+		},
+		"effectHit" : {
+			"min" : "0%",
+			"max" : "0%"
+		},
+		"effectRes" : {
+			"min" : "0%",
+			"max" : "0%"
+		}
+	},
+	"evolution" : [
+		{
+			"name" : "wind2",
+			"amount" : "8"
+		},
+		{
+			"name" : "wind3",
+			"amount" : "16"
+		},
+		{
+			"name" : "lightning2",
+			"amount" : "8"
+		},
+		{
+			"name" : "lightning3",
+			"amount" : "16"
+		}
+	],
+	"skins" : [
+		{
+			"name" : "Default",
+			"icon" : "/280/280s1.png",
+			"defaultAvatar" : "/280/280skin1.png"
+		},
+		{
+			"name" : "Awakened",
+			"icon" : "/280/280s2.png",
+			"defaultAvatar" : "/280/280skin2.png"
+		},
+		{
+			"name" : "",
+			"icon" : "/280/280s3.png",
+			"defaultAvatar" : "/280/280skin3.png"
+		},
+		{
+			"name" : "",
+			"icon" : "/280/280s4.png",
+			"defaultAvatar" : "/280/280skin4.png"
+		}		
+	],
+	"skills" : [
+		{
+			"name": "Horai Branch",			
+			"type" : "Normal",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "/280/2801.png",
+			"description" : "ST 100% ATK damage + 10% chance to take out 1 Orb from enemy",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 4,
+					"effect" : "+5% damage"
+				},
+				{
+					"level" : 5,
+					"effect" : "+10% damage"
+				}
+			]
+		},
+		{
+			"name": "Fire Rat",			
+			"type" : "Passive",
+			"onibi" : 0,
+			"cooldown" : 0,
+			"icon" : "/280/2802.png",
+			"description" : "30% chance to recover 1 Orb when any ally, including self, receives damage (AOE or multi-attack do not stack chance); Upon Evolving, activate [Dragon Jewel] at the beginning of the battle",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% chance Orb generation"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% chance Orb generation"
+				}
+			]
+		},
+		{
+			"name": "Dragon Jewel",			
+			"type" : "Special",
+			"onibi" : 3,
+			"cooldown" : 0,
+			"icon" : "/280/2803.png",
+			"description" : "Activate a Fantasy Land for 2 turns in which allies receive +15% DEF and +10% Effect RES.  In addition, each unit has 67% chance to generate 1 Orb before it acts",
+			"upgrade" : [
+				{
+					"level" : 2,
+					"effect" : "+5% defense buff"
+				},
+				{
+					"level" : 3,
+					"effect" : "+5% Effect RES buff"
+				},
+				{
+					"level" : 4,
+					"effect" : "+5% defense buff"
+				},
+				{
+					"level" : 5,
+					"effect" : "+5% Effect RES buff"
+				}
+			]
+		}
+	]
+}
