@@ -130,7 +130,7 @@
 		{
 			"name": "Dragon Jewel",			
 			"type" : "Special",
-			"onibi" : 3,
+			"onibi" : 2,
 			"cooldown" : 0,
 			"icon" : "/280/2803.png",
 			"description" : "Activate a Fantasy Land for 2 turns in which allies receive +15% DEF and +10% Effect RES.  In addition, each unit has 67% chance to generate 1 Orb before it acts",
