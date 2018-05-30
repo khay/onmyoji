@@ -10,6 +10,7 @@ We've finished data for the following shikigami so far.
 ![Yoto Hime](https://github.com/khay/onmyoji/blob/master/libs/resources/269/269s1.png?raw=true)
 ![Ibaraki Doji](https://github.com/khay/onmyoji/blob/master/libs/resources/265/265s1.png?raw=true)
 ![Kaguya](https://github.com/khay/onmyoji/blob/master/libs/resources/280/280s1.png?raw=true)
+![Aoandon](https://github.com/khay/onmyoji/blob/master/libs/resources/266/266s1.png?raw=true)
 
 
 Meanwhile, you can download the game from the link below and enjoy.
